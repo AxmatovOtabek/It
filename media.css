@@ -1,0 +1,142 @@
+@media only screen and (max-width: 992px){
+	#top{
+		position: relative;
+		z-index: 1050;
+	}
+	nav{
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+	.carousel-caption h1{
+		font-size: 60px;
+	}
+	.carousel-caption h6{
+		font-size: 24px;
+	}
+	.carousel-caption a{
+		display: block;
+		margin: auto;
+		border-radius: 50px;
+		width: 175px;
+		height: 44px;
+		border: none;
+		padding: 10px;
+		background-color: #F42439;
+		color: white;
+		text-decoration: none;
+	}
+	#about{
+		height: 550px;
+	}
+	#about_2 .opacity{
+		padding-bottom: 20px;
+	}
+	#fotogalereya .last_img{
+		margin: auto;
+	}
+}
+@media only screen and (max-width: 768px){
+	.carousel-caption h1{
+		font-size: 48px;
+	}
+	.carousel-caption h6{
+		margin-top: 20px!important;
+		font-size: 20px;
+	}
+	.carousel-caption a{
+		display: block;
+		font-size: 13px;
+		margin-top: 20px!important;
+		margin: auto;
+		border-radius: 50px;
+		width: 140px;
+		height: 36px;
+		border: none;
+		padding: 8px;
+		background-color: #F42439;
+		color: white;
+		text-decoration: none;
+	}
+	#about{
+		padding-top: 20px;
+		height: 425px;
+	}
+	#about h1{
+		font-size: 30px;
+	}
+	#about #hr1{
+		width: 160px!important;
+		height: 1.1px!important;
+		margin: 12px auto;
+	}
+	#about #hr2{
+		width: 80px!important;
+		height: 1.1px!important;
+		margin: auto;
+	}
+	#about .row{
+		margin-top: 20px!important;
+		line-height: 12px;
+	}
+	#courses .container{
+		max-width: 90%!important;
+	}
+	#fotogalereya img{
+		width: auto;
+		height: 252px;
+	}
+	.vizitka span{
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 480px){
+	#header{
+		display: none;
+	}
+	#menu{
+		padding-top: 0!important;
+	}
+	.carousel-caption h1{
+		font-size: 24px;
+	}
+	.carousel-caption h6{
+		margin-top: 20px!important;
+		font-size: 10px;
+	}
+	.carousel-caption a{
+		display: block;
+		font-size: 13px;
+		margin-top: 20px!important;
+		margin: auto;
+		border-radius: 50px;
+		width: 140px;
+		height: 36px;
+		border: none;
+		padding: 8px;
+		background-color: #F42439;
+		color: white;
+		text-decoration: none;
+	}
+	#about{
+		background-image: none;
+		background-color: #F2F7FB;
+	}
+	.vizitka .d-sm-none{
+		display: none;
+	}
+	.b-b{
+		border-bottom: 1px solid white;
+	}
+	footer .d-sm-none{
+		display: none;
+	}
+	footer .col-2{
+		padding: 0;
+		font-size: 12px!important;
+	}
+	footer .col-9{
+		padding-top: 15px;
+	}
+	footer .col-9 hr{
+		height: 0.3px;
+	}
+}
